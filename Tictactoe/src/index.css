@@ -71,6 +71,11 @@ body {
   width: 34px;
 }
 
+.box:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
 
 
